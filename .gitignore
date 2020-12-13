@@ -4,7 +4,7 @@
 
 ### DotnetCore ###
 # .NET Core build folders
-/SimpleFactory/bin/
-/SimpleFactory/obj/
+SimpleFactory/bin/
+SimpleFactory/obj/
 
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore
