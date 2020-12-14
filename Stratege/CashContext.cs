@@ -3,6 +3,7 @@ public class CashContext
     CashSuper cs = null;
     public CashContext(string type)
     {
+        //simple factory pattern
         switch (type)
         {
             case "normal":
