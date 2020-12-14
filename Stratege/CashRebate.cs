@@ -1,6 +1,6 @@
 public class CashRebate : CashSuper
 {
-    private double moneyRebate = 0d;
+    private double moneyRebate = 1d;
 
     public CashRebate(double moneyRebate)
     {
