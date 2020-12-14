@@ -1,4 +1,4 @@
-public class CashNormal
+public class CashNormal : CashSuper
 {
     public override double acceptCash(double money)
     {
