@@ -6,7 +6,9 @@ namespace Stratege
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CashContext cc = new CashContext("cashRebate");
+            double totalPrice = cc.GetResult(500);
+            Console.WriteLine("Total Price: {1}", totalPrice);
         }
     }
 }
