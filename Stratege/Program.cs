@@ -8,7 +8,7 @@ namespace Stratege
         {
             CashContext cc = new CashContext("cashRebate");
             double totalPrice = cc.GetResult(500);
-            Console.WriteLine("Total Price: {1}", totalPrice);
+            Console.WriteLine("Total Price: {0}", totalPrice);
         }
     }
 }
