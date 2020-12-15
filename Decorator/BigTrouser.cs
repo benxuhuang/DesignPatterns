@@ -1,3 +1,5 @@
+using System;
+
 class BigTrouser : Finery
 {
     public override void Show()

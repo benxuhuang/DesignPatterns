@@ -1,11 +1,15 @@
+using System;
+
 public class Person
 {
     private string _name;
+    public Person() { }
     public Person(string name)
     {
-        _name = name;
+        this._name = name;
     }
-
-    public abstract void Show();
-
+    public virtual void Show()
+    {
+        Console.WriteLine("{0} is decorated", this._name);
+    }
 }

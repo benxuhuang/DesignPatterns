@@ -1,7 +1,8 @@
 public class Finery : Person
 {
     protected Person component;
-    public Finery(Person component)
+
+    public void Decorate(Person component)
     {
         this.component = component;
     }
@@ -11,5 +12,4 @@ public class Finery : Person
         if (component != null)
             component.Show();
     }
-
 }
