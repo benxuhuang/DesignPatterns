@@ -6,7 +6,12 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person p = new Person("Ben");
+            TShirts ts = new TShirts();
+            BigTrouser bt = new BigTrouser();
+            ts.Decorate(p);
+            bt.Decorate(ts);
+            bt.Show();
         }
     }
 }
