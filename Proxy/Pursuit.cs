@@ -10,16 +10,16 @@ class Pursuit : IGiveGift
 
     public void GiveDolls()
     {
-        Console.WriteLine(_girl.Name + "got a doll");
+        Console.WriteLine(_girl.Name + " got a doll");
     }
 
     public void GiveFlowers()
     {
-        Console.WriteLine(_girl.Name + "got a flower");
+        Console.WriteLine(_girl.Name + " got a flower");
     }
 
     public void GiveChocolate()
     {
-        Console.WriteLine(_girl.Name + "got a chocolate");
+        Console.WriteLine(_girl.Name + " got a chocolate");
     }
 }

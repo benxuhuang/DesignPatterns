@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace Proxy
+namespace ProxyPattern
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var girl = new Girl("Judy");
+            Proxy proxy = new Proxy(girl);
+            proxy.GiveDolls();
+            proxy.GiveFlowers();
+            proxy.GiveChocolate();
         }
     }
 }

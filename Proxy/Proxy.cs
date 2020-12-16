@@ -2,7 +2,7 @@ using System;
 
 class Proxy : IGiveGift
 {
-    private Pursuit pursuit;
+    Pursuit pursuit;
     public Proxy(Girl girl)
     {
         pursuit = new Pursuit(girl);
@@ -10,7 +10,7 @@ class Proxy : IGiveGift
 
     public void GiveDolls()
     {
-        pursuit.GiveDolls;
+        pursuit.GiveDolls();
     }
 
     public void GiveFlowers()
