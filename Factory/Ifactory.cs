@@ -1,0 +1,4 @@
+interface Ifactory
+{
+    Nightingale CreateNiahtingale();
+}

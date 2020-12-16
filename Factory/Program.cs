@@ -6,7 +6,11 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ifactory factory = new UndergraduateFactory();
+            Nightingale student = factory.CreateNiahtingale();
+            student.BuyRice();
+            student.Sweep();
+            student.Wash();
         }
     }
 }
