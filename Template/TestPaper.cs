@@ -6,20 +6,20 @@ public abstract class TestPaper
         Console.WriteLine("Question1");
         Console.WriteLine(Answer1);
     }
-
-    public abstract void Answer1()
+    public abstract string Answer1()
     {
-        Console.WriteLine("default answer");
+        return "default answer";
     }
+
     public void Question2()
     {
         Console.WriteLine("Question2");
         Console.WriteLine(Answer2);
     }
 
-    public abstract void Answer2()
+    public abstract string Answer2()
     {
-        Console.WriteLine("default answer");
+        return "default answer";
     }
 
     public void Question3()
@@ -28,9 +28,9 @@ public abstract class TestPaper
         Console.WriteLine(Answer3);
     }
 
-    public abstract void Answer3()
+    public abstract string Answer3()
     {
-        Console.WriteLine("default answer");
+        return "default answer";
     }
 
 
